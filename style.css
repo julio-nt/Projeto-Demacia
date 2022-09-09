@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+
+body {
+	font-family: 'Lexend', sans-serif;
+	background-color: rgb(0, 136, 255);
+	overflow: hidden;
+}
+
+.lista-menu {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 30vw;
+	color: white;
+	position: absolute;
+	left: 10%;
+}
+
+.inicio {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#wild-rift-logo {
+	width: 27rem;
+	position: absolute;
+	left: 20%;
+	top: 15%;
+}
+
+#garen-logo {
+	width: 30vw;
+	height: auto;
+	position: absolute;
+	left: 60%;
+}
+
+.entrada {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: 60%;
+	left: 15%;
+	width: 100rem;
+	height: 20rem;
+}
+
+#texto-entrada {
+	/* position: absolute;
+	top: 60%;
+	left: 15%; */
+	font-size: 40pt;
+	color: white;
+	width: 20rem;
+}
+
+#arrow {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 25%;
+}
