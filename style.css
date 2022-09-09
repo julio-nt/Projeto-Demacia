@@ -63,6 +63,7 @@ a:visited {
 	height: auto;
 	position: absolute;
 	left: 60%;
+	z-index: 2;
 }
 
 .entrada {
@@ -254,7 +255,7 @@ a:visited {
 }
 
 /* ajuste de tela */
-@media (max-width: 1336px) {
+@media (max-width: 1366px) {
 	#garen-logo {
 		width: 25vw;
 		height: auto;
