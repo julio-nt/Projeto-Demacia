@@ -8,16 +8,18 @@
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav class="nav-bar">
 				<ol class="lista-menu">
-					<li class="itens-menu">início</li>
-					<li class="itens-menu">personagens</li>
-					<li class="itens-menu">contato</li>
+					<li class="itens-menu"><a href="#inicio">início</a></li>
+					<li class="itens-menu">
+						<a href="#personagens">personagens</a>
+					</li>
+					<li class="itens-menu"><a href="#contato">contato</a></li>
 				</ol>
 			</nav>
 		</header>
 		<main>
-			<article class="inicio">
+			<article id="inicio">
 				<img
 					id="wild-rift-logo"
 					alt="logo wild rift"
@@ -37,7 +39,9 @@
 					/>
 				</section>
 			</article>
-			<article class="personagens"></article>
+			<article id="personagens">
+				<h2 class="titulo-pagina">Personagens</h2>
+			</article>
 		</main>
 	</body>
 </html>
