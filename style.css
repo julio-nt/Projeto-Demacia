@@ -81,11 +81,16 @@ a:visited {
 	width: 20rem;
 }
 
-#arrow {
+#img-link {
 	width: 100px;
 	height: 100px;
 	position: relative;
 	top: 25%;
+}
+
+#arrow {
+	width: 100px;
+	height: 100px;
 }
 
 /* página personagens */
