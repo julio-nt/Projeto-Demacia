@@ -133,6 +133,7 @@ a:visited {
 	padding: 12px;
 	border: 1px solid rgb(0, 136, 255);
 	border-radius: 10px;
+	font-family: 'Lexend', sans-serif;
 }
 
 #pesquisa:focus {
@@ -229,16 +230,16 @@ a:visited {
 
 #mensagem {
 	margin-top: 10px;
-	width: 25rem;
 	height: 10rem;
 }
 
 .input-contato {
-	width: 25rem;
+	width: 30rem;
 	background-color: rgba(0, 0, 0, 0);
 	border: 2px solid white;
 	color: white;
 	padding: 10px;
+	font-family: 'Lexend', sans-serif;
 }
 
 .input-contato::placeholder {
@@ -247,4 +248,14 @@ a:visited {
 
 .input-contato:focus {
 	outline: none;
+}
+
+#botao-contato {
+	width: 30rem;
+	padding: 10px;
+	margin-top: 30px;
+	background-color: #0071bd;
+	border: none;
+	color: white;
+	font-family: 'Lexend', sans-serif;
 }
