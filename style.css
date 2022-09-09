@@ -176,29 +176,17 @@ a:visited {
 	transition: all 1s ease;
 }
 
-.div-imagem:hover .nome-champ {
+.div-imagem:hover .champ {
 	opacity: 1;
 	transition: all 1s ease;
 }
 
-.div-imagem:hover .desc-champ {
-	opacity: 1;
-	transition: all 1s ease;
-}
-
-.champ {
+.img-champ {
 	width: 13rem;
 	height: 20rem;
 }
 
-.nome-champ {
-	position: relative;
-	top: -60%;
-	color: white;
-	opacity: 0;
-}
-
-.desc-champ {
+.champ {
 	position: relative;
 	top: -60%;
 	text-align: center;
@@ -263,4 +251,44 @@ a:visited {
 	border: none;
 	color: white;
 	font-family: 'Lexend', sans-serif;
+}
+
+/* ajuste de tela */
+@media (max-width: 1336px) {
+	#garen-logo {
+		width: 25vw;
+		height: auto;
+		position: absolute;
+		left: 60%;
+		top: 10%;
+	}
+	.topo-direita {
+		position: relative;
+		top: 4rem;
+		left: 50%;
+	}
+	.meio {
+		margin-top: 1rem;
+	}
+	.div-imagem {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		width: 10rem;
+		height: 15rem;
+		align-items: center;
+		margin-bottom: -50px;
+	}
+	.img-champ {
+		width: 10rem;
+	}
+	.champ {
+		position: relative;
+		top: -85%;
+		text-align: center;
+		color: white;
+		opacity: 0;
+		font-size: 11pt;
+		padding: 5px;
+	}
 }
