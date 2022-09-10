@@ -1,10 +1,8 @@
-function mudarPagina(pagina) {
-	if (pagina == 'pagina2') {
-		document.querySelector('.pagina-2').style.display = 'block';
-		document.querySelector('.pagina-1').style.display = 'none';
+const navbar = document.querySelector('.nav-fixed');
+window.onscroll = () => {
+	if (window.scrollY < 500) {
+		navbar.classList.add('nav-inicio');
+	} else {
+		navbar.classList.remove('nav-inicio');
 	}
-	if (pagina == 'pagina1') {
-		document.querySelector('.pagina-1').style.display = 'block';
-		document.querySelector('.pagina-2').style.display = 'none';
-	}
-}
+};
