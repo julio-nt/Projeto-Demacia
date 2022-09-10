@@ -35,6 +35,11 @@ html {
 	position: relative;
 	margin-top: 15px;
 	margin-left: 5rem;
+	margin-bottom: 5px;
+}
+
+.itens-menu:hover {
+	border-bottom: 2px solid white;
 }
 
 a:link {
@@ -197,6 +202,10 @@ a:visited {
 	padding: 5px;
 }
 
+#pontinhos {
+	display: none;
+}
+
 /* página contato */
 #contato {
 	height: 100%;
@@ -266,7 +275,7 @@ a:visited {
 	.topo-direita {
 		position: relative;
 		top: 4rem;
-		left: 50%;
+		left: 55%;
 	}
 	.meio {
 		margin-top: 1rem;
