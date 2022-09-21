@@ -54,7 +54,7 @@ html {
 	z-index: 2;
 	position: relative;
 	left: 90%;
-	top: 5px;
+	top: 1rem;
 }
 
 a:link {
@@ -320,12 +320,19 @@ a:visited {
 	font-family: 'Lexend', sans-serif;
 }
 
+#botao-contato:hover {
+	background-color: #1aa2fc;
+}
+
 #seta-contato {
 	top: 40%;
 }
 
 /* ajuste de tela */
 @media (max-width: 1366px) {
+	.nav-inicio {
+		top: 3rem;
+	}
 	#garen-logo {
 		width: 25vw;
 		height: auto;
@@ -345,27 +352,60 @@ a:visited {
 		display: flex;
 		flex-direction: column;
 		position: relative;
-		width: 10rem;
-		height: 15rem;
+		width: 9rem;
+		height: 10rem;
 		align-items: center;
-		margin-bottom: -50px;
+		margin-bottom: 10px;
 	}
 	.img-champ {
-		width: 10rem;
+		width: 9rem;
 	}
 	.champ {
 		position: relative;
-		top: -85%;
+		top: -110%;
 		text-align: center;
 		color: white;
 		opacity: 0;
-		font-size: 11pt;
+		font-size: 10pt;
 		padding: 5px;
 	}
 	.seta-azul {
-		top: -20%;
+		top: 0;
 	}
 
+	#seta-contato {
+		top: 15%;
+	}
+}
+
+@media (max-width: 1280px) {
+	.topo-direita {
+		top: 6rem;
+	}
+	.div-imagem {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		width: 8rem;
+		height: 10rem;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.img-champ {
+		width: 8rem;
+	}
+	.champ {
+		position: relative;
+		top: -100%;
+		text-align: center;
+		color: white;
+		opacity: 0;
+		font-size: 8pt;
+		padding: 5px;
+	}
+	.seta-azul {
+		top: 5%;
+	}
 	#seta-contato {
 		top: 20%;
 	}

@@ -6,7 +6,8 @@ window.onscroll = () => {
 		navbar.classList.remove('nav-inicio');
 	}
 };
-
+//SCRIPT DE MUDANÇA DE PAGINA DAS IMAGENS
+/*
 const pagina1 = document.querySelector('.pagina-1');
 const pagina2 = document.querySelector('.pagina-2');
 const pagina3 = document.querySelector('.pagina-3');
@@ -34,3 +35,4 @@ const mudarPagina = function (page) {
 		pagina3.classList.remove('start-hidden');
 	}
 };
+*/
